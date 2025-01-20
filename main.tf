@@ -11,7 +11,7 @@ terraform {
   backend "azurerm" {
     resource_group_name  = "terraform-backend-rg"
     storage_account_name = "iamunique208012025"
-    container_name       = "tfstatekt"
+    container_name       = "tfstate"
   }
 }
 
